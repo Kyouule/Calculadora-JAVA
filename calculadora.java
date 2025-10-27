@@ -1,4 +1,4 @@
-public class calculadora {
+public class Calculadora {
 
     public double calcular(double num1, double num2, Operacao operacao) {
         switch (operacao) {
@@ -16,6 +16,7 @@ public class calculadora {
             default:
                 throw new IllegalArgumentException("Operação inválida!");
         }
-    }''
+    }
 }
+
 
