@@ -1,4 +1,4 @@
-public class Calculadora {
+public class calculadora {
 
     public double calcular(double num1, double num2, Operacao operacao) {
         switch (operacao) {
@@ -18,3 +18,4 @@ public class Calculadora {
         }
     }''
 }
+
